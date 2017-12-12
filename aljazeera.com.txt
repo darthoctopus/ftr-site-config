@@ -1,8 +1,12 @@
 title: //span[@id='DetailedTitle']
-body: //td[@id='tdTextContent']
+body: //div[@id='main-article-body']
 strip_id_or_class: Skyscrapper_Body
 date: //span[@id='ctl00_cphBody_lblDate']
 author: //div[@id="dvAuthorInfo"]//a/text()
 strip: //table[ tbody/tr/td/object ]
+
+strip: //div[contains(@class, 'article-more-on-block')]
+strip: //div[contains(@class, 'article-also-read')]
+
 prune: no
 test_url: http://www.aljazeera.com/indepth/opinion/2012/01/2012114121925380575.html

@@ -1,6 +1,6 @@
 # Seems to be redirecting to articles.washingtonpost.com for many users
 
-body: //div[contains(@class, "article_body")]
+body: //article[@itemprop = 'articleBody']
 # print view
 body: //div[@id='print_facet']//div[@id='body']
 
@@ -22,6 +22,9 @@ strip://div[@class="module component live-qa curved img-border"]
 strip://div[@class="module component newsletter-signup curved"]
 strip://div[@class="module featured-stories component curved img-border"]
 strip://h3[@property="dc.creator"]
+
+replace_string(src=): title=
+replace_string(data-hi-res-title=): src=
 
 strip_id_or_class: carousel
 strip_id_or_class: toolbar
