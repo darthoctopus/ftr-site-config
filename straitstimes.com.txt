@@ -1,0 +1,7 @@
+body: //div[@itemprop = 'articleBody']
+
+strip_id_or_class: ads
+strip_id_or_class: view-mode-embed_horizontal_related_story_q
+strip_id_or_class: mode-embed_related_story_without_pic
+strip_id_or_class: group-related-story-embed
+strip_id_or_class: innity-in-post

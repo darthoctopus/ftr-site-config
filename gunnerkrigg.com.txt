@@ -1,0 +1,5 @@
+body: //div[contains(@class, 'comic')]
+
+strip: //div[@class = 'nav']
+strip: //div[@class = 'center nav']
+strip: //div[@class = 'extra']

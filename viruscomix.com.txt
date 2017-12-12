@@ -1,0 +1,3 @@
+body: //body
+strip: //br
+strip: //a

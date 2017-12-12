@@ -1,0 +1,7 @@
+body: //div[contains(@class, 'pane-node-body')]
+
+strip_id_or_class: ads
+strip_id_or_class: link
+strip_id_or_class: scmp-inline-newsletter-subscription
+
+replace_string(data-original=): src=

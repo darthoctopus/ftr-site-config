@@ -1,0 +1,5 @@
+title: //h1[@itemprop = 'headline']
+date: //div[@class = 'byline']
+body: //div[@itemprop = 'articleBody']
+
+strip_id_or_class: reco
